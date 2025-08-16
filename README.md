@@ -1,9 +1,9 @@
 # 🌾 Crop Yield Prediction (1997–2023)
 
-## 📌 Brief Description
-This project analyzes and predicts agricultural crop yields in India using historical data (1997–2020) and forecasts up to 2023.  
-Leveraging **Prophet time series models** with climatic and input-related regressors, it provides insights into **season-wise yield trends, top & bottom performing states, and policy implications**.  
-
+## Brief Description
+This project analyzes and predicts agricultural crop yields in India using historical data (1997–2020).  
+Leveraging **Prophet time series models** with climatic and input-related regressors, it provides insights into **season-wise yield trends, Top & Bottom performing states, and policy implications**.  
+An interactive **Power BI dashboard** is also included for visualization.
 ---
 
 ## 📂 Repository Contents
@@ -12,8 +12,7 @@ Leveraging **Prophet time series models** with climatic and input-related regres
 - **Reports/**  
   - *Prediction Report* (Methodology, results, insights)  
   - *Crops Data Report* (2010–2017 dataset analysis)  
-  - *Statistical Awareness Report* (answers to questionnaire & dashboard overview)  
-- **Power BI Dashboard** → Interactive dashboard for state & crop-level analysis.  
+- **Power BI Dashboard** → Interactive dashboard for State - District & crop-level analysis.  
 
 ---
 
@@ -39,10 +38,9 @@ Leveraging **Prophet time series models** with climatic and input-related regres
 
 ---
 
-## 🔮 Forecasting
-- Predicted yields for **2015–2023**, keeping **actuals fixed until 2020**.  
+## 🔮 Forecasting 
 - Forecasts for **2021–2023** extend using historical averages for regressors.  
-- Compared **Actual vs Predicted yields** (2015–2020) for validation.  
+- Compared **Actual vs Predicted yields** (1997–2020) for validation.  
 - Identified **Top 5 and Bottom 5 states** by mean predicted yields.  
 
 ---
